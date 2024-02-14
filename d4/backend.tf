@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
-    bucket = "tsk-s3-bucket-36"
+    bucket = "tsk-s3-bucket-35"
     region = "us-east-1"
-    key = "home_centos_terraform_abhi_d4/terraform.tfstate"
+    key = "saikrishna/terraform.tfstate"
   }
 }
