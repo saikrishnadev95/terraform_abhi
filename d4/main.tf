@@ -7,3 +7,7 @@ resource "aws_instance" "test" {
   ami = "ami-0f3c7d07486cad139"
   subnet_id = "subnet-00ec21ac0a060c0f4"
 }
+
+resource "aws_s3_bucket" "bucket" {
+  bucket = "tsk-s3-bucket-35"
+}
